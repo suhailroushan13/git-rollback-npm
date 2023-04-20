@@ -1,10 +1,11 @@
 {
   "name": "git-rollback-npm",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Rollback in GitHub refers to the process of reverting changes made to a repository back to a previous commit. This can be useful in situations where a mistake was made, or a bug was introduced, and you need to undo recent changes to get your repository back to a previous working state.",
   "main": "script.sh",
   "scripts": {
-    "test": "bash script.sh"
+    "test": "bash script.sh",
+    "postinstall": "bash script.sh"
   },
   "repository": {
     "type": "git",

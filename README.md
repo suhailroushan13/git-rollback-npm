@@ -9,7 +9,7 @@ To use the script, follow these steps:
 Make sure your repository have more than 2 commits to get rollbacked
 
 ```bash
-sudo npm install git-rollback
+sudo npm install git-rollback-npm
 rollback
 ```
 
